@@ -13,6 +13,7 @@
   margin: 4px;
   cursor: pointer;
   user-select: none;
+  transition: all 0.1s ease;
 }
 
 .button-container:hover {
@@ -30,4 +31,10 @@
   background-color: #1b1b32;
   color: #e9cc8f;
   border: 2px solid #e9cc8f;
+}
+
+.button-container.active {
+  transform: scale(0.95);
+  background-color: #ffd166;
+  box-shadow: 0 0 10px rgba(255, 209, 102, 0.8);
 }
