@@ -1,4 +1,4 @@
-.button-clear {
+.button-delete {
   height: 80px;
   font-size: 1.6em;
   font-weight: bold;
@@ -16,7 +16,7 @@
   transition: all 0.3s ease;
 }
 
-.button-clear:hover {
+.button-delete:hover {
   background-color: #e9cc8f;
   color: #1b1b32;
   border: 2px solid #1b1b32;
